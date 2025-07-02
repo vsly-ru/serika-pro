@@ -1,0 +1,51 @@
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/hugocxl/serika/master/icon.png" alt="Serika Logo" width="100">
+  <br>
+  Serika Pro for <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+  <br>
+</h1>
+
+<p align="center">
+  <strong>Dark theme for Visual Studio Code</strong>
+</p>
+
+<p align="center">
+  Inspired by <a href="https://monkeytype.com/">MonkeyType.com</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PRs-welcome-%235FCC6F.svg" alt="PRs welcome!" />
+</p>
+
+## Install
+
+#### Install using Command Palette (in VScode and forks)
+
+1. Go to `View -> Command Palette` or press `Ctrl+Shift+P`;
+2. Then enter `Install Extension`;
+3. Type `Serika Pro`;
+4. Select it or press `Enter` to install.
+
+### Install using Git
+
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
+
+```bash
+git clone https://github.com/vsly-ru/serika-pro.git ~/.vscode/extensions/serika-pro-theme
+cd ~/.vscode/extensions/serika-pro-theme
+npm install
+npm run build
+```
+
+#### Activating theme
+
+Run Visual Studio Code. The Serika theme will be available from `File -> Preferences -> Color Theme` or `Ctrl+K+T` dropdown menu.
+
+
+## License
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%235FCC6F">
+
+[MIT License](./LICENSE.md)
+
+Based on <a href="https://github.com/hugocxl/serika">serika</a> theme by <a href="https://github.com/hugocxl">hugocxl</a>.

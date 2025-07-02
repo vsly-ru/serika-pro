@@ -1,0 +1,51 @@
+{
+  "name": "serika-pro-theme",
+  "displayName": "Serika Pro Theme",
+  "description": "Serika Pro theme for vscode by @vsly-ru",
+  "publisher": "vsly-ru",
+  "author": "Vasiliy Atutov",
+  "license": "MIT",
+  "version": "1.0.0",
+  "categories": [
+    "Themes"
+  ],
+  "maintainers": [
+    "Vasiliy Atutov"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vsly-ru/serika-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vsly-ru/serika-pro/issues"
+  },
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "keywords": [
+    "serika",
+    "pro",
+    "monkeytype",
+    "vsly-ru",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#323437",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Serika Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Serika-pro-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}
