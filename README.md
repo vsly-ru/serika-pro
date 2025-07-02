@@ -18,6 +18,10 @@
   <img src="https://img.shields.io/badge/PRs-welcome-%235FCC6F.svg" alt="PRs welcome!" />
 </p>
 
+<p align="center">
+  <img alt="Serika Pro screnshoot for Visual Studio Code" src="https://raw.githubusercontent.com/vsly-ru/serika-pro/master/screenshot.png">
+</p>
+
 ## Install
 
 #### Install using Command Palette (in VScode and forks)
