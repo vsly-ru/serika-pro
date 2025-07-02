@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/hugocxl/serika/master/icon.png" alt="Serika Logo" width="100">
+  <img src="https://raw.githubusercontent.com/vsly-ru/serika-pro/master/icon.png" alt="Serika Pro Logo" width="100">
   <br>
   Serika Pro for <a href="https://code.visualstudio.com/">Visual Studio Code</a>
   <br>
