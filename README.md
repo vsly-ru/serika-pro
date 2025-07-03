@@ -28,7 +28,7 @@
 
 1. Go to `View -> Command Palette` or press `Ctrl+Shift+P`;
 2. Then enter `Install Extension`; 
->> Alternatively: if you have this theme on disk, you can choose `Developer: Install Extension from Location...` and select a folder with it. Skip steps 3 & 4 in this case.
+> Alternatively: if you have this theme on disk, you can choose `Developer: Install Extension from Location...` and select a folder with it. Skip steps 3 & 4 in this case.
 3. Type `Serika Pro`;
 4. Select it or press `Enter` to install.
 
