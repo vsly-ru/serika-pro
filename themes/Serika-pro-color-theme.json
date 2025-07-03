@@ -55,9 +55,9 @@
     "editorGroup.dropBackground": "#323437",
     "editorGroupHeader.tabsBackground": "#323437",
     "editorGroupHeader.tabsBorder": "#323437",
-    "editorGutter.addedBackground": "#FFCB00",
-    "editorGutter.deletedBackground": "#d0679d",
-    "editorGutter.modifiedBackground": "#ca4754",
+    "editorGutter.addedBackground": "#CBFF00",
+    "editorGutter.deletedBackground": "#ca4754",
+    "editorGutter.modifiedBackground": "#FFCB00",
     "editorIndentGuide.activeBackground1": "#2c2e31",
     "editorIndentGuide.background1": "#323437",
     "editorLineNumber.activeForeground": "#FFCB00",
@@ -75,7 +75,7 @@
     "gitDecoration.modifiedResourceForeground": "#FFCB00",
     "gitDecoration.renamedResourceForeground": "#FF9000",
     "gitDecoration.stageDeletedResourceForeground": "#d0679d",
-    "gitDecoration.stageModifiedResourceForeground": "#ca4754",
+    "gitDecoration.stageModifiedResourceForeground": "#FFCB00",
     "gitDecoration.submoduleResourceForeground": "#89ddff",
     "gitDecoration.untrackedResourceForeground": "#FFCB00",
     "icon.foreground": "#FFCB00",
@@ -211,6 +211,12 @@
       }
     },
     {
+      "scope": ["keyword.control", "keyword.operator.new"],
+      "settings": {
+        "foreground": "#ea4a5a"
+      }
+    },
+    {
       "scope": ["string"],
       "settings": {
         "foreground": "#d1d0c5"
@@ -223,7 +229,7 @@
       }
     },
     {
-      "scope": ["constant", "entity.name"],
+      "scope": ["constant", "entity.name",  "meta.function-call"],
       "settings": {
         "foreground": "#FFCB00"
       }
