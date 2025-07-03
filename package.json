@@ -1,11 +1,11 @@
 {
   "name": "serika-pro-theme",
   "displayName": "Serika Pro Theme",
-  "description": "Serika Pro theme for vscode by @vsly-ru",
+  "description": "Serika Pro dark theme for vscode by @vsly-ru",
   "publisher": "vsly-ru",
   "author": "Vasiliy Atutov",
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "categories": [
     "Themes"
   ],

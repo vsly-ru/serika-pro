@@ -15,7 +15,7 @@
     "breadcrumb.foreground": "#959da5",
     "breadcrumbPicker.background": "#2c2e31",
     "button.background": "#FFCB00",
-    "button.foreground": "#dcffe4",
+    "button.foreground": "#000000",
     "button.hoverBackground": "#a9870f",
     "button.secondaryBackground": "#2c2e31",
     "button.secondaryForeground": "#ffffff",
