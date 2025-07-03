@@ -192,7 +192,7 @@
     },
     {
       "scope": [
-        "keyword.operator.assignment",
+        "keyword.operator",
         "brace",
         "bracket",
         "delimiter",
@@ -229,7 +229,7 @@
       }
     },
     {
-      "scope": ["constant", "entity.name",  "meta.function-call"],
+      "scope": ["entity.name",  "meta.function-call", "support.class"],
       "settings": {
         "foreground": "#FFCB00"
       }
