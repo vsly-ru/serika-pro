@@ -146,26 +146,27 @@
     "tab.activeForeground": "#EEE",
     "tab.border": "#323437",
     "tab.hoverBackground": "#323437",
+    "tab.hoverBorder": "#212325",
     "tab.inactiveBackground": "#323437",
     "tab.inactiveForeground": "#959da5",
     "tab.unfocusedActiveBorder": "#323437",
     "tab.unfocusedHoverBackground": "#323437",
     "terminal.ansiBlack": "#3f4451",
-    "terminal.ansiBlue": "#89ddff",
+    "terminal.ansiBlue": "#2986cc",
     "terminal.ansiBrightBlack": "#4f5666",
-    "terminal.ansiBrightBlue": "#89ddff",
-    "terminal.ansiBrightCyan": "#FFCB00",
-    "terminal.ansiBrightGreen": "#a5e075",
+    "terminal.ansiBrightBlue": "#69aadb",
+    "terminal.ansiBrightCyan": "#00b2b2",
+    "terminal.ansiBrightGreen": "#4eba7a",
     "terminal.ansiBrightMagenta": "#de73ff",
     "terminal.ansiBrightRed": "#ff616e",
     "terminal.ansiBrightWhite": "#d7dae0",
-    "terminal.ansiBrightYellow": "#f0a45d",
-    "terminal.ansiCyan": "#82aaff",
-    "terminal.ansiGreen": "#98c379",
+    "terminal.ansiBrightYellow": "#FFCB00",
+    "terminal.ansiCyan": "#009999",
+    "terminal.ansiGreen": "#3e9461",
     "terminal.ansiMagenta": "#c792ea",
-    "terminal.ansiRed": "#d0679d",
+    "terminal.ansiRed": "#cc4d58",
     "terminal.ansiWhite": "#e6e6e6",
-    "terminal.ansiYellow": "#f69d50",
+    "terminal.ansiYellow": "#e5b600",
     "terminal.foreground": "#d1d5da",
     "textBlockQuote.background": "#323437",
     "textBlockQuote.border": "#2c2e31",
@@ -185,7 +186,9 @@
   "name": "Serika Pro",
   "tokenColors": [
     {
-      "scope": ["variable"],
+      "scope": [
+        "variable"
+      ],
       "settings": {
         "foreground": "#d1d0c5"
       }
@@ -205,37 +208,52 @@
       }
     },
     {
-      "scope": ["storage"],
+      "scope": [
+        "storage"
+      ],
       "settings": {
         "foreground": "#737579"
       }
     },
     {
-      "scope": ["keyword.control", "keyword.operator.new"],
+      "scope": [
+        "keyword.control",
+        "keyword.operator.new"
+      ],
       "settings": {
         "foreground": "#ea4a5a"
       }
     },
     {
-      "scope": ["string"],
+      "scope": [
+        "string"
+      ],
       "settings": {
         "foreground": "#d1d0c5"
       }
     },
     {
-      "scope": ["comment"],
+      "scope": [
+        "comment"
+      ],
       "settings": {
         "foreground": "#737579"
       }
     },
     {
-      "scope": ["entity.name",  "meta.function-call", "support.class"],
+      "scope": [
+        "entity.name",
+        "meta.function-call",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#FFCB00"
       }
     },
     {
-      "scope": ["constant"],
+      "scope": [
+        "constant"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#ea4a5a"
